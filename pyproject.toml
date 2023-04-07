@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test-api-payments"
+version = "0.1.0"
+description = ""
+authors = ["user <bav-574@mail.ru>"]
+readme = "README.md"
+packages = [{include = "test_api_payments"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95.0"
+uvicorn = "^0.21.1"
+pymongo = "^4.3.3"
+python-dateutil = "^2.8.2"
+aiogram = "^2.25.1"
+python-dotenv = "^1.0.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
